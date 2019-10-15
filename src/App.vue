@@ -1,6 +1,6 @@
 <template lang="pug">
   #app
-    img(src='./assets/logo2.png')
+    img(src='https://robertoocandom.github.io/Musiclafm/dist/logo2.png')
     h1 Platzi Music Curso
     select(v-model="selectedCountry")
       option(v-for="country in countries" v-bind:value="country.value") {{ country.name }}
